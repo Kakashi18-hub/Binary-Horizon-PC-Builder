@@ -12,19 +12,19 @@
 
 ### 1. **The Assembly Bay**
 The heart of Binary Horizon. A reactive, drag-and-drop environment for high-precision PC assembly.
-![Builder Interface](public/screenshots/builder.png)
+![Builder Interface](public/builder.png)
 
 ### 2. **Boot Sequence**
 High-fidelity splash screen driven by liquid-smooth Framer Motion transitions.
-![Splash Screen](public/screenshots/splash-screen.png)
+![Splash Screen](public/splash-screen.png)
 
 ### 3. **Architecture Index**
 A comprehensive, high-contrast hardware database with real-time market estimates.
-![Database View](public/screenshots/database.png)
+![Database View](public/database.png)
 
 ### 4. **Infrastructure Blueprint**
 Detailed engineering breakdown of the modern tech stack powering the platform.
-![Technical Blueprint](public/screenshots/about.png)
+![Technical Blueprint](public/about.png)
 
 ---
 
