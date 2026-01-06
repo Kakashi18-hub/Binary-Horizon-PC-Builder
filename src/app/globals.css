@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fdfdfd;
+  --foreground: #000000;
+  --card-bg: #ffffff;
+  --card-border: #e5e5e5;
+  --subtext: #525252;
+  --accent: #000000;
+  --input-bg: #f9f9f9;
+  --grid-line: rgba(0, 0, 0, 0.05);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card-bg);
+  --color-card-border: var(--card-border);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --radius-2xl: 1.5rem;
+  --radius-3xl: 2rem;
+  --shadow-soft: 0 10px 30px -10px rgba(0, 0, 0, 0.1);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Base resets and patterns */
+* {
+  border-color: var(--card-border);
+}
+
+/* Custom Utilities */
+.bg-card {
+  background-color: var(--card-bg);
+}
+
+.border-card {
+  border-color: var(--card-border);
+}
+
+.text-subtext {
+  color: var(--subtext);
+}
+
+/* Hide scrollbars but keep functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
